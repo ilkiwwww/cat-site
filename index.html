@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Біографія Персика — шотландського вислоухого кота: паспорт, хроніка, фотоархів, таланти і розклад доби.">
-<meta property="og:title" content="Персик Вислоухий">
+<meta name="description" content="Біографія Байрактара — шотландського вислоухого кота: паспорт, хроніка, фотоархів, таланти і розклад доби.">
+<meta property="og:title" content="Байрактар Вислоухий">
 <meta property="og:description" content="Офіційна біографія одного дуже переконаного в собі кота.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%B1%3C/text%3E%3C/svg%3E">
-<title>Персик Вислоухий</title>
+<title>Байрактар Вислоухий</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800;900&family=Nunito:ital,wght@0,400;0,700;0,900;1,400&family=JetBrains+Mono:wght@400;700&display=swap">
@@ -107,7 +107,7 @@ section{padding-block:clamp(56px,8vw,104px)}
 
 /* ---------- HERO ---------- */
 .hero{position:relative;padding-block:clamp(36px,6vw,64px) clamp(48px,7vw,88px);overflow:hidden}
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(20px,4vw,56px);align-items:center}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(20px,4vw,56px);align-items:center}
 @media(max-width:860px){.hero-grid{grid-template-columns:1fr;gap:28px}}
 
 .hero-kicker{
@@ -119,8 +119,8 @@ section{padding-block:clamp(56px,8vw,104px)}
 .hero-kicker b{color:var(--crimson)}
 
 .hero h1{
-  font-size:clamp(66px,15.5vw,168px);font-weight:900;letter-spacing:-.055em;
-  margin:22px 0 0;line-height:.82;
+  font-size:clamp(30px,9.8vw,116px);font-weight:900;letter-spacing:-.05em;
+  margin:16px 0 clamp(14px,2.5vw,28px);line-height:.92;white-space:nowrap;
 }
 .hero h1 .ch{display:inline-block;transform-origin:50% 90%}
 .hero h1 em{
@@ -300,10 +300,11 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
 
 <!-- ============ HERO ============ -->
 <header class="hero">
-  <div class="wrap hero-grid">
+  <div class="wrap">
+    <p class="hero-kicker">Scottish&nbsp;Fold · <b>з 2019</b> · власник цієї квартири</p>
+      <h1 id="nameplate" aria-label="Байрактар"><span class="ch">Б</span><span class="ch">А</span><span class="ch"><em>Й</em></span><span class="ch">Р</span><span class="ch">А</span><span class="ch">К</span><span class="ch">Т</span><span class="ch">А</span><span class="ch">Р</span></h1>
+    <div class="hero-grid">
     <div>
-      <p class="hero-kicker">Scottish&nbsp;Fold · <b>з 2019</b> · власник цієї квартири</p>
-      <h1 id="nameplate" aria-label="Персик"><span class="ch">П</span><span class="ch">Е</span><span class="ch">Р</span><span class="ch">С</span><span class="ch"><em>И</em></span><span class="ch">К</span></h1>
       <p class="hero-sub">Вислоухий. Бурштиноокий. Ображений на світ за фактом народження.</p>
       <p class="hero-lede">Кіт, який дивиться на тебе так, ніби ти щойно пообіцяв мʼясо — і не приніс. Тут його офіційна біографія, паспорт, розклад доби і перелік талантів.</p>
       <div class="facts">
@@ -315,7 +316,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
 
     <div class="portrait">
       <div class="disc"></div>
-      <svg viewBox="0 0 460 470" role="img" aria-label="Мультяшний портрет вислоухого кота Персика з великими бурштиновими очима">
+      <svg viewBox="0 0 460 470" role="img" aria-label="Мультяшний портрет вислоухого кота Байрактара з великими бурштиновими очима">
         <g fill="none" stroke="#241E18" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
           <!-- shoulders -->
           <path d="M60 470 C64 392 128 344 230 344 C332 344 396 392 400 470 Z" fill="#C9AF8B"/>
@@ -376,6 +377,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
         </g>
       </svg>
     </div>
+    </div>
   </div>
 </header>
 
@@ -394,7 +396,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
         <span>№&nbsp;001 · безстроково</span>
       </div>
       <dl class="fields">
-        <div class="field"><dt>Повне імʼя</dt><dd>Персик Пухнастий <small>Для своїх — Пєся. Для гостей — «ой, який!»</small></dd></div>
+        <div class="field"><dt>Повне імʼя</dt><dd>Байрактар <small>Позивний — Бая. Відгукується на обидва, коли сам вважає за потрібне</small></dd></div>
         <div class="field"><dt>Порода</dt><dd>Scottish Fold <small>Шотландська вислоуха, одинарна складка</small></dd></div>
         <div class="field"><dt>Окрас</dt><dd>Lilac / fawn <small>Офіційно — «бежево-ліловий». Неофіційно — розтоплене морозиво</small></dd></div>
         <div class="field"><dt>Очі</dt><dd>Мідно-бурштинові <small>Діаметр — надмірний. Погляд — прицільний</small></dd></div>
@@ -446,7 +448,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
         <div class="yr">2022</div>
         <div class="pip" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1 L23 12 L12 23 L1 12 Z" fill="none" stroke="#CE2B23" stroke-width="3"/></svg></div>
         <div><h3>Працював котом-заспокійливим</h3>
-          <p>Ліг поруч і почав муркотіти саме тоді, коли це було найпотрібніше. Робив це щоразу і не просив нічого навзамін. Ну, майже нічого.</p></div>
+          <p>Ліг поруч і почав муркотіти саме тоді, коли це було найпотрібніше. Робив це щоразу і не просив нічого навзамін. Саме тоді отримав своє імʼя.</p></div>
       </article>
       <article class="ev">
         <div class="yr">2024</div>
@@ -502,7 +504,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
               </g>
             </g>
           </svg>
-          <img src="photos/1.jpg" alt="Персик зблизька" loading="lazy" onerror="this.remove()">
+          <img src="photos/1.jpg" alt="Байрактар зблизька" loading="lazy" onerror="this.remove()">
         </div>
         <figcaption><span class="cap-t">«А ти точно йдеш на кухню?»</span><span class="cap-s">Режим максимальних зіниць</span></figcaption>
       </figure>
@@ -551,7 +553,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
             </g>
             <path d="M150 214 C150 236 146 252 142 266" stroke="#CE2B23" stroke-width="5" fill="none" stroke-linecap="round"/>
           </svg>
-          <img src="photos/2.jpg" alt="Персик у вишиванці" loading="lazy" onerror="this.remove()">
+          <img src="photos/2.jpg" alt="Байрактар у вишиванці" loading="lazy" onerror="this.remove()">
         </div>
         <figcaption><span class="cap-t">«Вишиванка»</span><span class="cap-s">Парадна форма · за настроєм</span></figcaption>
       </figure>
@@ -591,7 +593,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
               <path d="M110 272 C76 264 54 264 30 272"/><path d="M184 272 C218 264 240 264 264 272"/>
             </g>
           </svg>
-          <img src="photos/3.jpg" alt="Персик на підвіконні" loading="lazy" onerror="this.remove()">
+          <img src="photos/3.jpg" alt="Байрактар на підвіконні" loading="lazy" onerror="this.remove()">
         </div>
         <figcaption><span class="cap-t">«Підвіконня»</span><span class="cap-s">Контроль периметра двору</span></figcaption>
       </figure>
@@ -631,7 +633,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
               <path d="M66 278 C36 272 18 272 0 280"/><path d="M138 278 C168 272 186 272 204 280"/>
             </g>
           </svg>
-          <img src="photos/4.jpg" alt="Персик в ігровому кріслі" loading="lazy" onerror="this.remove()">
+          <img src="photos/4.jpg" alt="Байрактар в ігровому кріслі" loading="lazy" onerror="this.remove()">
         </div>
         <figcaption><span class="cap-t">«Крісло»</span><span class="cap-s">Робоче місце зайнято. Назавжди</span></figcaption>
       </figure>
@@ -667,7 +669,7 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
 <section id="doba">
   <div class="wrap">
     <p class="eyebrow">Розклад доби · 24 години</p>
-    <h2 class="sec-title">Один день<br>із життя Персика</h2>
+    <h2 class="sec-title">Один день<br>із життя Байрактара</h2>
     <p class="sec-lede">Графік щільний. Вікон для твоїх планів немає.</p>
 
     <div class="day">
@@ -704,14 +706,14 @@ footer{padding:26px var(--pad) 40px;display:flex;justify-content:space-between;g
 <section class="outro">
   <div class="wrap">
     <h2>Він просто <em>найкращий</em><br>і крапка</h2>
-    <p>Дякую, що дочитав його біографію. Персик цього не оцінить, але я оцінила.</p>
+    <p>Дякую, що дочитав його біографію. Байрактар цього не оцінить, але я оцінила.</p>
   </div>
 </section>
 
 <div class="rail" aria-hidden="true"><svg preserveAspectRatio="xMidYMid slice"><rect width="100%" height="26" fill="url(#stitch)"/></svg></div>
 
 <footer>
-  <span>Персик · Scottish Fold · з 2019</span>
+  <span>Байрактар · Scottish Fold · з 2019</span>
   <span>Зроблено з любовʼю та шерстю на всьому одязі</span>
 </footer>
 
